@@ -1,0 +1,1397 @@
+2020-01-27 16:57:49.541  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 9948 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-27 16:57:49.579 DEBUG 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 16:57:49.579  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-27 16:57:49.713  INFO 9948 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-27 16:57:49.714  INFO 9948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-27 16:57:49.714  INFO 9948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-27 16:57:51.052  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-27 16:57:51.290  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 218ms. Found 4 JPA repository interfaces.
+2020-01-27 16:57:51.899  INFO 9948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-27 16:57:52.936  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-27 16:57:52.953  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-27 16:57:52.957  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-27 16:57:52.965  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-27 16:57:52.966  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-27 16:57:52.966  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-27 16:57:52.967  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-27 16:57:53.016  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-27 16:57:53.365  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-27 16:57:53.366  INFO 9948 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3652 ms
+2020-01-27 16:57:53.713  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-27 16:57:53.803  INFO 9948 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-27 16:57:53.972  INFO 9948 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-27 16:57:54.164  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-27 16:57:54.439  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-27 16:57:54.460  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-27 16:57:55.662  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-27 16:57:55.671  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 16:57:55.704  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-27 16:57:56.727  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-27 16:57:57.074  INFO 9948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-27 16:57:57.181  INFO 9948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-27 16:57:57.943  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-27 16:57:57.945  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 9.415 seconds (JVM running for 12.193)
+2020-01-27 16:57:58.345  INFO 9948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-27 16:57:58.345  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-27 16:57:58.357  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-01-27 18:08:21.407  INFO 9948 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-27 18:08:21.416  INFO 9948 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 18:08:21.437  INFO 9948 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-27 18:08:21.450  INFO 9948 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-27 18:08:22.120  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 9948 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-27 18:08:22.120 DEBUG 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 18:08:22.120  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-27 18:08:22.503  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-27 18:08:22.560  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 4 JPA repository interfaces.
+2020-01-27 18:08:22.638  INFO 9948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-27 18:08:22.744  WARN 9948 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-27 18:08:22.824  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-27 18:08:22.825  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-27 18:08:22.825  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-27 18:08:22.826  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-27 18:08:22.826  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-27 18:08:22.826  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-27 18:08:22.826  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-27 18:08:22.826  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-27 18:08:22.855  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-27 18:08:22.856  INFO 9948 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 730 ms
+2020-01-27 18:08:22.966  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-27 18:08:22.976  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-01-27 18:08:22.982  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-01-27 18:08:22.983  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-27 18:08:23.269  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-27 18:08:23.269  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 18:08:23.286  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-27 18:08:23.660  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-27 18:08:23.840  INFO 9948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-27 18:08:23.897  INFO 9948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-27 18:08:24.421  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-27 18:08:24.423  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 2.373 seconds (JVM running for 4238.67)
+2020-01-27 18:08:24.424  INFO 9948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-27 19:24:45.413  INFO 9948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-27 19:24:45.414  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-27 19:24:45.428  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-01-27 19:24:45.457  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:24:45.640  WARN 9948 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 19:24:45.661  WARN 9948 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 19:24:45.678  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:24:59.946  INFO 9948 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:24:59.979  INFO 9948 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:25:21.924  INFO 9948 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:25:21.936  INFO 9948 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:25:47.001  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:25:47.017  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:27:21.177  INFO 9948 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:27:21.204  INFO 9948 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:28:24.002  INFO 9948 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:28:24.037  INFO 9948 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:29:35.356  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:29:35.386  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:29:46.314  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:29:46.344  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:33:59.847  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:33:59.887  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:35:29.501  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:35:29.540  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:35:46.249  INFO 9948 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:35:46.269  INFO 9948 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:44:22.361  INFO 9948 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:44:22.389  INFO 9948 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:46:13.138  INFO 9948 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:46:13.176  INFO 9948 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:46:59.252  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:46:59.265  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:47:12.477  INFO 9948 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:47:12.493  INFO 9948 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:47:14.237  INFO 9948 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:47:14.255  INFO 9948 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 19:47:39.591  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 19:47:39.633  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:13:40.073  INFO 9948 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:13:40.092  INFO 9948 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:26:11.766  INFO 9948 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:26:11.791  INFO 9948 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:27:19.884  INFO 9948 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:27:19.900  INFO 9948 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:27:31.649  INFO 9948 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:27:31.679  INFO 9948 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:27:55.839  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:27:55.866  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:39:35.641  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:39:35.658  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:39:36.793  INFO 9948 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:39:36.804  INFO 9948 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:39:49.715  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:39:49.748  INFO 9948 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:39:51.962  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:39:51.974  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:39:53.105  INFO 9948 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:39:53.117  INFO 9948 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:39:54.486  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:39:54.499  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 20:39:55.273  INFO 9948 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 20:39:55.293  INFO 9948 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 21:00:45.185  INFO 9948 --- [Thread-32] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-27 21:00:45.187  INFO 9948 --- [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 21:00:45.190  INFO 9948 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-01-27 21:00:45.196  INFO 9948 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-01-27 21:00:45.696  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 9948 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-27 21:00:45.696 DEBUG 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 21:00:45.697  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-27 21:00:45.970  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-27 21:00:46.020  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 4 JPA repository interfaces.
+2020-01-27 21:00:46.089  INFO 9948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-27 21:00:46.168  WARN 9948 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-27 21:00:46.248  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-27 21:00:46.249  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-27 21:00:46.249  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-27 21:00:46.249  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-27 21:00:46.249  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-27 21:00:46.249  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-27 21:00:46.249  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-27 21:00:46.250  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-27 21:00:46.272  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-27 21:00:46.273  INFO 9948 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 573 ms
+2020-01-27 21:00:46.358  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-27 21:00:46.364  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-01-27 21:00:46.369  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-01-27 21:00:46.369  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-27 21:00:46.571  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-27 21:00:46.571  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 21:00:46.586  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-27 21:00:46.945  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-27 21:00:47.085  INFO 9948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-27 21:00:47.134  INFO 9948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-27 21:00:47.612  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-27 21:00:47.613  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 1.973 seconds (JVM running for 14581.86)
+2020-01-27 21:00:47.614  INFO 9948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-27 21:01:01.853  INFO 9948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-27 21:01:01.855  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-27 21:01:01.868  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-01-27 21:01:08.653  INFO 9948 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 21:01:08.670  WARN 9948 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 21:01:08.676  WARN 9948 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 21:01:08.681  INFO 9948 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 21:01:16.603  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 小米, {}]}
+2020-01-27 21:01:16.614  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : search
+2020-01-27 21:01:24.185  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 123, {}]}
+2020-01-27 21:01:24.203  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : search
+2020-01-27 21:54:10.426  INFO 9948 --- [Thread-37] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-27 21:54:10.427  INFO 9948 --- [Thread-37] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 21:54:10.429  INFO 9948 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-01-27 21:54:10.434  INFO 9948 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-01-27 21:54:11.095  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 9948 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-27 21:54:11.095 DEBUG 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 21:54:11.095  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-27 21:54:11.406  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-27 21:54:11.464  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 4 JPA repository interfaces.
+2020-01-27 21:54:11.535  INFO 9948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-27 21:54:11.618  WARN 9948 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-27 21:54:11.692  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-27 21:54:11.693  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-27 21:54:11.693  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-27 21:54:11.693  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-27 21:54:11.694  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-27 21:54:11.694  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-27 21:54:11.694  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-27 21:54:11.694  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-27 21:54:11.922  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-27 21:54:11.922  INFO 9948 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 824 ms
+2020-01-27 21:54:12.004  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-27 21:54:12.010  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-01-27 21:54:12.015  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-01-27 21:54:12.015  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-27 21:54:12.219  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-27 21:54:12.220  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 21:54:12.236  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-27 21:54:12.680  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-27 21:54:12.922  INFO 9948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-27 21:54:12.977  INFO 9948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-27 21:54:13.475  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-27 21:54:13.476  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 2.451 seconds (JVM running for 17787.722)
+2020-01-27 21:54:13.477  INFO 9948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-27 21:54:13.545  INFO 9948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-27 21:54:13.547  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-27 21:54:13.557  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-01-27 21:54:13.561  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 21:54:13.578  WARN 9948 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 21:54:13.583  WARN 9948 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 21:54:13.588  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 21:54:14.470  INFO 9948 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 21:54:14.487  INFO 9948 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 21:54:15.968  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/32', ip='127.0.0.1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[32, {}]}
+2020-01-27 21:54:15.981  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-01-27 23:41:17.958  INFO 9948 --- [Thread-42] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:41:17.962  INFO 9948 --- [Thread-42] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:41:17.970  INFO 9948 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-01-27 23:41:17.991  INFO 9948 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-01-27 23:41:18.677  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 9948 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-27 23:41:18.678 DEBUG 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 23:41:18.678  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-27 23:41:19.082  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-27 23:41:19.157  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74ms. Found 4 JPA repository interfaces.
+2020-01-27 23:41:19.239  INFO 9948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-27 23:41:19.361  WARN 9948 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-27 23:41:19.446  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-27 23:41:19.447  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-27 23:41:19.447  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-27 23:41:19.447  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-27 23:41:19.448  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-27 23:41:19.448  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-27 23:41:19.448  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-27 23:41:19.448  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-27 23:41:19.478  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-27 23:41:19.478  INFO 9948 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 795 ms
+2020-01-27 23:41:19.611  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-27 23:41:19.619  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-01-27 23:41:19.627  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-01-27 23:41:19.628  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-27 23:41:19.988  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-27 23:41:19.989  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:41:20.013  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-27 23:41:20.463  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-27 23:41:20.679  INFO 9948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:41:20.751  INFO 9948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-27 23:41:21.627  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-27 23:41:21.628  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 3.037 seconds (JVM running for 24215.875)
+2020-01-27 23:41:21.630  INFO 9948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-27 23:41:42.282  INFO 9948 --- [Thread-47] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:41:42.283  INFO 9948 --- [Thread-47] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:41:42.285  INFO 9948 --- [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-01-27 23:41:42.289  INFO 9948 --- [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-01-27 23:41:42.752  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 9948 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-27 23:41:42.752 DEBUG 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 23:41:42.752  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-27 23:41:43.052  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-27 23:41:43.111  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 4 JPA repository interfaces.
+2020-01-27 23:41:43.176  INFO 9948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-27 23:41:43.254  WARN 9948 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-27 23:41:43.328  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-27 23:41:43.328  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-27 23:41:43.329  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-27 23:41:43.329  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-27 23:41:43.329  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-27 23:41:43.329  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-27 23:41:43.329  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-27 23:41:43.330  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-27 23:41:43.353  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-27 23:41:43.353  INFO 9948 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 597 ms
+2020-01-27 23:41:43.438  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-27 23:41:43.444  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2020-01-27 23:41:43.447  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2020-01-27 23:41:43.448  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-27 23:41:43.662  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-27 23:41:43.662  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:41:43.679  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-27 23:41:44.029  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-27 23:41:44.182  INFO 9948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:41:44.233  INFO 9948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-27 23:41:44.720  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-27 23:41:44.720  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 2.029 seconds (JVM running for 24238.967)
+2020-01-27 23:41:44.721  INFO 9948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-27 23:50:30.467  INFO 9948 --- [Thread-52] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:50:30.468  INFO 9948 --- [Thread-52] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:50:30.469  INFO 9948 --- [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2020-01-27 23:50:30.474  INFO 9948 --- [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2020-01-27 23:50:30.917  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 9948 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-27 23:50:30.918 DEBUG 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 23:50:30.918  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-27 23:50:31.328  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-27 23:50:31.408  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 4 JPA repository interfaces.
+2020-01-27 23:50:31.518  INFO 9948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-27 23:50:31.621  WARN 9948 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-27 23:50:31.694  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-27 23:50:31.696  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-27 23:50:31.696  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-27 23:50:31.697  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-27 23:50:31.697  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-27 23:50:31.697  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-27 23:50:31.697  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-27 23:50:31.697  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-27 23:50:31.720  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-27 23:50:31.721  INFO 9948 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 800 ms
+2020-01-27 23:50:31.856  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-27 23:50:31.867  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2020-01-27 23:50:31.873  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2020-01-27 23:50:31.873  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-27 23:50:32.077  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-27 23:50:32.077  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:50:32.091  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-27 23:50:32.447  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-27 23:50:32.568  INFO 9948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:50:32.612  INFO 9948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-27 23:50:33.087  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-27 23:50:33.088  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 2.226 seconds (JVM running for 24767.334)
+2020-01-27 23:50:33.089  INFO 9948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-27 23:50:33.239  INFO 9948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-27 23:50:33.240  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-27 23:50:33.249  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-01-27 23:50:33.253  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 23:50:33.270  WARN 9948 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 23:50:33.274  WARN 9948 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 23:50:33.280  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 23:50:34.499  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/32', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[32, {}]}
+2020-01-27 23:50:34.540 ERROR 9948 --- [http-nio-8080-exec-2] c.s.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/blog/32，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.simon.bolg_sys.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:40)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl.getAndConvert(BlogServiceImpl.java:51)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$9c63d591.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$fa6aa270.getAndConvert(<generated>)
+	at com.simon.bolg_sys.controller.IndexController.blog(IndexController.java:52)
+	at com.simon.bolg_sys.controller.IndexController$$FastClassBySpringCGLIB$$2dba66cf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.controller.IndexController$$EnhancerBySpringCGLIB$$b2c551cd.blog(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.commonmark.ext.heading.anchor.HeadingAnchorExtension
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 83 common frames omitted
+
+2020-01-27 23:50:34.541  WARN 9948 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2020-01-27 23:50:40.949  INFO 9948 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-01-27 23:50:40.956 ERROR 9948 --- [http-nio-8080-exec-9] c.s.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/blog/25，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.simon.bolg_sys.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:40)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl.getAndConvert(BlogServiceImpl.java:51)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$9c63d591.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$fa6aa270.getAndConvert(<generated>)
+	at com.simon.bolg_sys.controller.IndexController.blog(IndexController.java:52)
+	at com.simon.bolg_sys.controller.IndexController$$FastClassBySpringCGLIB$$2dba66cf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.controller.IndexController$$EnhancerBySpringCGLIB$$b2c551cd.blog(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	... 39 common frames omitted
+
+2020-01-27 23:50:40.958  WARN 9948 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2020-01-27 23:51:54.166  INFO 9948 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 23:51:54.205  INFO 9948 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 23:51:55.271  INFO 9948 --- [Thread-57] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:51:55.272  INFO 9948 --- [Thread-57] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:51:55.273  INFO 9948 --- [Thread-57] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2020-01-27 23:51:55.279  INFO 9948 --- [Thread-57] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2020-01-27 23:51:55.800  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 9948 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-27 23:51:55.801 DEBUG 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 23:51:55.801  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-27 23:51:56.080  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-27 23:51:56.134  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 4 JPA repository interfaces.
+2020-01-27 23:51:56.213  INFO 9948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-27 23:51:56.302  WARN 9948 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-27 23:51:56.374  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-27 23:51:56.375  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-27 23:51:56.375  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-27 23:51:56.375  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-27 23:51:56.375  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-27 23:51:56.375  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-27 23:51:56.375  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-27 23:51:56.376  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-27 23:51:56.397  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-27 23:51:56.397  INFO 9948 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 592 ms
+2020-01-27 23:51:56.477  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-27 23:51:56.482  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2020-01-27 23:51:56.487  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2020-01-27 23:51:56.487  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-27 23:51:56.656  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-27 23:51:56.656  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:51:56.671  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-27 23:51:56.997  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-27 23:51:57.132  INFO 9948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:51:57.177  INFO 9948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-27 23:51:57.662  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-27 23:51:57.662  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 1.913 seconds (JVM running for 24851.909)
+2020-01-27 23:51:57.663  INFO 9948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-27 23:51:57.758  INFO 9948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-27 23:51:57.759  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-27 23:51:57.768  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-01-27 23:51:57.772  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/31', ip='127.0.0.1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[31, {}]}
+2020-01-27 23:51:57.775  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-01-27 23:53:07.227  INFO 9948 --- [Thread-62] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:53:07.228  INFO 9948 --- [Thread-62] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:53:07.229  INFO 9948 --- [Thread-62] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2020-01-27 23:53:07.232  INFO 9948 --- [Thread-62] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2020-01-27 23:53:07.761  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 9948 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-27 23:53:07.761 DEBUG 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 23:53:07.761  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-27 23:53:07.997  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-27 23:53:08.047  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49ms. Found 4 JPA repository interfaces.
+2020-01-27 23:53:08.103  INFO 9948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-27 23:53:08.177  WARN 9948 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-27 23:53:08.246  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-27 23:53:08.246  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-27 23:53:08.246  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-27 23:53:08.246  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-27 23:53:08.246  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-27 23:53:08.247  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-27 23:53:08.247  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-27 23:53:08.247  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-27 23:53:08.282  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-27 23:53:08.282  INFO 9948 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 518 ms
+2020-01-27 23:53:08.361  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-27 23:53:08.366  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2020-01-27 23:53:08.370  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2020-01-27 23:53:08.370  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-27 23:53:08.536  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-27 23:53:08.536  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:53:08.551  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-27 23:53:08.856  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-27 23:53:08.982  INFO 9948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:53:09.025  INFO 9948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-27 23:53:09.497  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-27 23:53:09.498  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 1.787 seconds (JVM running for 24923.745)
+2020-01-27 23:53:09.499  INFO 9948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-27 23:53:33.842  INFO 9948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-27 23:53:33.844  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-27 23:53:33.857  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-01-27 23:53:33.861  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/31', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[31, {}]}
+2020-01-27 23:53:33.878 ERROR 9948 --- [http-nio-8080-exec-1] c.s.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/blog/31，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.simon.bolg_sys.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:40)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl.getAndConvert(BlogServiceImpl.java:51)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$9c63d591.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$fa6aa270.getAndConvert(<generated>)
+	at com.simon.bolg_sys.controller.IndexController.blog(IndexController.java:52)
+	at com.simon.bolg_sys.controller.IndexController$$FastClassBySpringCGLIB$$2dba66cf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.controller.IndexController$$EnhancerBySpringCGLIB$$b2c551cd.blog(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.commonmark.ext.heading.anchor.HeadingAnchorExtension
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 83 common frames omitted
+
+2020-01-27 23:53:33.879  WARN 9948 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2020-01-27 23:53:35.610  INFO 9948 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/31', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[31, {}]}
+2020-01-27 23:53:35.616 ERROR 9948 --- [http-nio-8080-exec-9] c.s.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/blog/31，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.simon.bolg_sys.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:40)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl.getAndConvert(BlogServiceImpl.java:51)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$9c63d591.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$fa6aa270.getAndConvert(<generated>)
+	at com.simon.bolg_sys.controller.IndexController.blog(IndexController.java:52)
+	at com.simon.bolg_sys.controller.IndexController$$FastClassBySpringCGLIB$$2dba66cf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.controller.IndexController$$EnhancerBySpringCGLIB$$b2c551cd.blog(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	... 39 common frames omitted
+
+2020-01-27 23:53:35.617  WARN 9948 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2020-01-27 23:53:37.070  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/31', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[31, {}]}
+2020-01-27 23:53:37.075 ERROR 9948 --- [http-nio-8080-exec-2] c.s.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/blog/31，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.simon.bolg_sys.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:40)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl.getAndConvert(BlogServiceImpl.java:51)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$9c63d591.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$fa6aa270.getAndConvert(<generated>)
+	at com.simon.bolg_sys.controller.IndexController.blog(IndexController.java:52)
+	at com.simon.bolg_sys.controller.IndexController$$FastClassBySpringCGLIB$$2dba66cf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.controller.IndexController$$EnhancerBySpringCGLIB$$b2c551cd.blog(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	... 39 common frames omitted
+
+2020-01-27 23:53:37.075  WARN 9948 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2020-01-27 23:53:38.115  INFO 9948 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/31', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[31, {}]}
+2020-01-27 23:53:38.120 ERROR 9948 --- [http-nio-8080-exec-7] c.s.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/blog/31，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.simon.bolg_sys.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:40)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl.getAndConvert(BlogServiceImpl.java:51)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$9c63d591.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$fa6aa270.getAndConvert(<generated>)
+	at com.simon.bolg_sys.controller.IndexController.blog(IndexController.java:52)
+	at com.simon.bolg_sys.controller.IndexController$$FastClassBySpringCGLIB$$2dba66cf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.controller.IndexController$$EnhancerBySpringCGLIB$$b2c551cd.blog(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	... 39 common frames omitted
+
+2020-01-27 23:53:38.122  WARN 9948 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2020-01-27 23:53:42.182  INFO 9948 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 23:53:42.200  WARN 9948 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 23:53:42.208  WARN 9948 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 23:53:42.214  INFO 9948 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 23:53:43.683  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/32', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[32, {}]}
+2020-01-27 23:53:43.687 ERROR 9948 --- [http-nio-8080-exec-1] c.s.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/blog/32，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.simon.bolg_sys.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:40)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl.getAndConvert(BlogServiceImpl.java:51)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$9c63d591.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$fa6aa270.getAndConvert(<generated>)
+	at com.simon.bolg_sys.controller.IndexController.blog(IndexController.java:52)
+	at com.simon.bolg_sys.controller.IndexController$$FastClassBySpringCGLIB$$2dba66cf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.controller.IndexController$$EnhancerBySpringCGLIB$$b2c551cd.blog(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	... 39 common frames omitted
+
+2020-01-27 23:53:43.689  WARN 9948 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2020-01-27 23:53:45.843  INFO 9948 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/32', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[32, {}]}
+2020-01-27 23:53:45.849 ERROR 9948 --- [http-nio-8080-exec-3] c.s.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/blog/32，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.simon.bolg_sys.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:40)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl.getAndConvert(BlogServiceImpl.java:51)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$9c63d591.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$fa6aa270.getAndConvert(<generated>)
+	at com.simon.bolg_sys.controller.IndexController.blog(IndexController.java:52)
+	at com.simon.bolg_sys.controller.IndexController$$FastClassBySpringCGLIB$$2dba66cf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.controller.IndexController$$EnhancerBySpringCGLIB$$b2c551cd.blog(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	... 39 common frames omitted
+
+2020-01-27 23:53:45.850  WARN 9948 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2020-01-27 23:53:49.071  INFO 9948 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 23:53:49.086  INFO 9948 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 23:53:50.598  INFO 9948 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-01-27 23:53:50.603 ERROR 9948 --- [http-nio-8080-exec-9] c.s.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/blog/25，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.simon.bolg_sys.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:40)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl.getAndConvert(BlogServiceImpl.java:51)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$9c63d591.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$fa6aa270.getAndConvert(<generated>)
+	at com.simon.bolg_sys.controller.IndexController.blog(IndexController.java:52)
+	at com.simon.bolg_sys.controller.IndexController$$FastClassBySpringCGLIB$$2dba66cf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.controller.IndexController$$EnhancerBySpringCGLIB$$b2c551cd.blog(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	... 39 common frames omitted
+
+2020-01-27 23:53:50.604  WARN 9948 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2020-01-27 23:58:27.470  INFO 9948 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-01-27 23:58:27.475 ERROR 9948 --- [http-nio-8080-exec-3] c.s.b.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/blog/25，Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension
+	at com.simon.bolg_sys.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:40)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl.getAndConvert(BlogServiceImpl.java:51)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$FastClassBySpringCGLIB$$9c63d591.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.service.impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$fa6aa270.getAndConvert(<generated>)
+	at com.simon.bolg_sys.controller.IndexController.blog(IndexController.java:52)
+	at com.simon.bolg_sys.controller.IndexController$$FastClassBySpringCGLIB$$2dba66cf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.simon.bolg_sys.controller.IndexController$$EnhancerBySpringCGLIB$$b2c551cd.blog(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	... 39 common frames omitted
+
+2020-01-27 23:58:27.475  WARN 9948 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/heading/anchor/HeadingAnchorExtension]
+2020-01-27 23:58:27.628  INFO 9948 --- [Thread-67] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:58:27.629  INFO 9948 --- [Thread-67] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:58:27.629  INFO 9948 --- [Thread-67] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2020-01-27 23:58:27.638  INFO 9948 --- [Thread-67] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2020-01-27 23:58:28.295  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 9948 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-27 23:58:28.295 DEBUG 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-27 23:58:28.295  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-27 23:58:28.578  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-27 23:58:28.642  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 4 JPA repository interfaces.
+2020-01-27 23:58:28.739  INFO 9948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-27 23:58:28.826  WARN 9948 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-27 23:58:28.899  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-27 23:58:28.899  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-27 23:58:28.900  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-27 23:58:28.900  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-27 23:58:28.900  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-27 23:58:28.900  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-27 23:58:28.900  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-27 23:58:28.900  INFO 9948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-27 23:58:28.923  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-27 23:58:28.923  INFO 9948 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 625 ms
+2020-01-27 23:58:29.001  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-27 23:58:29.006  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2020-01-27 23:58:29.011  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2020-01-27 23:58:29.011  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-27 23:58:29.155  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-27 23:58:29.155  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-27 23:58:29.170  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-27 23:58:29.468  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-27 23:58:29.590  INFO 9948 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-27 23:58:29.637  INFO 9948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-27 23:58:30.104  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-27 23:58:30.105  INFO 9948 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 1.863 seconds (JVM running for 25244.351)
+2020-01-27 23:58:30.106  INFO 9948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-27 23:58:30.247  INFO 9948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-27 23:58:30.248  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-27 23:58:30.261  INFO 9948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-01-27 23:58:30.266  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-27 23:58:30.288  WARN 9948 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 23:58:30.292  WARN 9948 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-27 23:58:30.299  INFO 9948 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-01-27 23:58:32.463  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-01-27 23:58:32.470  INFO 9948 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-01-27 23:59:31.931  INFO 9948 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-01-27 23:59:31.934  INFO 9948 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : blog

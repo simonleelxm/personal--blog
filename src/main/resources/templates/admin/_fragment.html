@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head(title)">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title th:replace="${title}">博客正文</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/typo.css" th:href="@{/css/typo.css}"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/animate.css" th:href="@{/css/animate.css}">
+    <link rel="stylesheet" type="text/css" href="../static/lib/prism/prism.css"
+          th:href="@{/lib/prism/prism.css}"/>
+    <link rel="stylesheet" type="text/css" href="../static/lib/tocbot/tocbot.css"
+          th:href="@{/lib/tocbot/tocbot.css}"/>
+    <link rel="stylesheet" href="../../static/lib/editormd/css/editormd.min.css" th:href="@{/lib/editmd/css/editormd.min.css}">
+    <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/mycss.css}">
+</head>
+<body>
+
+<!-- 导航 -->
+<nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu ">
+            <h2 class="ui teal header item">博客后台管理</h2>
+            <a href="" th:href="@{/admin/blogs}" class="item" th:classappend="${n==1} ? 'active'"><i
+                    class=" home icon"></i>
+                博客管理</a>
+            <a href="" th:href="@{/admin/types}" class="item" th:classappend="${n==2} ? 'active'"><i
+                    class=" idea icon"></i>分类管理</a>
+            <a href="" th:href="@{/admin/tags}" class="item" th:classappend="${n==3} ? 'active'"><i
+                    class=" tags icon"></i>标签管理</a>
+            <div class="right menu">
+                <div class="ui dropdown item">
+                    <div class="text" >
+                        <img th:src="@{${session.user.avatar}}" src="../../static/images/touxiang1.jpg"
+                             class="ui avatar image">
+                        <span th:text="${session.user.username}"></span>
+                    </div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <a th:href="@{/admin/logout}" href="" class="item">注销</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<!-- 底部 -->
+<footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted list link">
+                    <div class="item">
+                        <img th:src="@{/images/wechat_qrcode.png}" src="../static/images/wechat_qrcode.png"
+                             class="ui rounded image"
+                             style="width:120px;">
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+                <div class="ui inverted list link m-text-thin m-text-spaced m-opacity-mini">
+                    <a href="" class="item">示例文章</a>
+                    <a href="" class="item">示例文章</a>
+                    <a href="" class="item">示例文章</a>
+                    <a href="" class="item">示例文章</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">联系我</h4>
+                <div class="ui inverted list link m-text-thin m-text-spaced m-opacity-mini">
+                    <a href="" class="item">示例文章</a>
+                    <a href="" class="item">示例文章</a>
+                    <a href="" class="item">示例文章</a>
+                    <a href="" class="item">示例文章</a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header">博客介绍</h4>
+                <p class="m-text-thin m-text-spaced m-opacity-mini">关于博客关于博客关于博客关于博客关于博客关于博客关于博客关于博客关于博客</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider">
+        </div>
+        <p class="m-text-thin m-text-spaced m-opacity-mini">页脚内容</p>
+    </div>
+</footer>
+
+
+
+<th:block th:fragment="script">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script th:src="@{/lib/tocbot/tocbot.js}" src="../static/lib/tocbot/tocbot.js" type="text/javascript"
+            charset="utf-8"></script>
+    <script th:src="@{/lib/prism/prism.js}" src="../static/lib/prism/prism.js" type="text/javascript"
+            charset="utf-8"></script>
+    <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+    <script th:src="@{/lib/editmd/editormd.js}" src="../../static/lib/editmd/editormd.min.js"></script>
+
+</th:block>
+</body>
+</html>

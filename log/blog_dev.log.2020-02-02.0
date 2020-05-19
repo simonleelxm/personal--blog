@@ -1,0 +1,1078 @@
+2020-02-01 00:33:25.762  INFO 8104 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 00:33:25.814  INFO 8104 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 00:33:29.130  INFO 8104 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 00:33:29.160  INFO 8104 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 00:33:30.792  INFO 8104 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 00:33:30.804  INFO 8104 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 00:33:34.762  INFO 8104 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.ArchiveShowController.archives', args=[{}]}
+2020-02-01 00:33:34.775  INFO 8104 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : archives
+2020-02-01 00:33:36.544  INFO 8104 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 00:33:36.545  INFO 8104 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 00:48:07.119  INFO 8104 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 00:48:07.142  INFO 8104 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 00:48:08.345  INFO 8104 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 00:48:08.357  INFO 8104 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 00:48:09.415  INFO 8104 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 00:48:09.426  INFO 8104 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 00:48:13.357  INFO 8104 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 00:48:13.374  INFO 8104 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 00:48:17.853  INFO 8104 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 00:48:17.853  INFO 8104 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 01:05:29.763  INFO 8104 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 01:05:29.784  INFO 8104 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 15:05:58.696  INFO 11556 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 11556 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 15:05:58.705 DEBUG 11556 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 15:05:58.706  INFO 11556 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 15:05:59.014  INFO 11556 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-01 15:05:59.015  INFO 11556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-01 15:05:59.016  INFO 11556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-01 15:06:01.523  INFO 11556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 15:06:02.053  INFO 11556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 497ms. Found 5 JPA repository interfaces.
+2020-02-01 15:06:03.359  INFO 11556 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 15:06:06.267  INFO 11556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 15:06:06.286  INFO 11556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 15:06:06.287  INFO 11556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 15:06:06.291  INFO 11556 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 15:06:06.292  INFO 11556 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 15:06:06.292  INFO 11556 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 15:06:06.292  INFO 11556 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 15:06:06.379  INFO 11556 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 15:06:06.652  INFO 11556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 15:06:06.652  INFO 11556 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7636 ms
+2020-02-01 15:06:07.142  INFO 11556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 15:06:07.246  INFO 11556 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-02-01 15:06:07.433  INFO 11556 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-01 15:06:07.617  INFO 11556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-01 15:06:07.886  INFO 11556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-01 15:06:07.918  INFO 11556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 15:06:09.226  INFO 11556 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 15:06:09.235  INFO 11556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 15:06:09.272  INFO 11556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 15:06:10.312  WARN 11556 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 15:06:10.566  INFO 11556 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 15:06:10.675  INFO 11556 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 15:06:11.706  INFO 11556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 15:06:11.709  INFO 11556 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 14.088 seconds (JVM running for 16.722)
+2020-02-01 15:06:43.193  INFO 11556 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 15:06:43.193  INFO 11556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 15:06:43.208  INFO 11556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-02-01 15:06:43.277  INFO 11556 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 15:06:43.572  WARN 11556 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 15:06:43.629  WARN 11556 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 15:06:43.654  INFO 11556 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 15:06:50.502  INFO 11556 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:06:50.505  INFO 11556 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:10:51.929  INFO 11556 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:10:51.930  INFO 11556 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:11:44.607  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:11:44.608  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:13:23.051  INFO 11556 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:13:23.052  INFO 11556 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:14:37.553  INFO 11556 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:14:37.554  INFO 11556 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:14:41.778  INFO 11556 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:14:41.779  INFO 11556 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:16:10.163  INFO 11556 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:16:10.164  INFO 11556 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:16:13.189  INFO 11556 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:16:13.190  INFO 11556 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:16:27.486  INFO 11556 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:16:27.487  INFO 11556 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:16:28.525  INFO 11556 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:16:28.525  INFO 11556 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:16:49.168  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:16:49.170  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:16:59.468  INFO 11556 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:16:59.469  INFO 11556 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:18:23.049  INFO 11556 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:18:23.050  INFO 11556 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:20:44.685  INFO 11556 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:20:44.685  INFO 11556 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:20:47.418  INFO 11556 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:20:47.419  INFO 11556 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:20:48.774  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:20:48.775  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:21:08.612  INFO 11556 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 15:21:08.640  INFO 11556 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 15:21:26.264  INFO 11556 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 15:21:26.341  INFO 11556 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 15:21:30.407  INFO 11556 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-01 15:21:30.425  INFO 11556 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 15:21:31.304  INFO 11556 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2020-02-01 15:21:31.319  INFO 11556 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 15:21:33.550  INFO 11556 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-01 15:21:33.568  INFO 11556 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 15:21:35.291  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 15:21:35.325  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 15:21:40.218  INFO 11556 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.ArchiveShowController.archives', args=[{}]}
+2020-02-01 15:21:40.254  INFO 11556 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : archives
+2020-02-01 15:21:45.701  INFO 11556 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 15:21:45.711  INFO 11556 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 15:23:56.085  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.ArchiveShowController.archives', args=[{}]}
+2020-02-01 15:23:56.097  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : archives
+2020-02-01 15:23:57.370  INFO 11556 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:23:57.371  INFO 11556 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:32:18.551  INFO 11556 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:32:18.553  INFO 11556 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:32:22.004  INFO 11556 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:32:22.005  INFO 11556 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:32:35.805  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:32:35.806  INFO 11556 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:32:48.498  INFO 2300 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 2300 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 15:32:48.502 DEBUG 2300 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 15:32:48.502  INFO 2300 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 15:32:48.580  INFO 2300 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-01 15:32:48.580  INFO 2300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-01 15:32:48.581  INFO 2300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-01 15:32:49.257  INFO 2300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 15:32:49.386  INFO 2300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120ms. Found 5 JPA repository interfaces.
+2020-02-01 15:32:49.701  INFO 2300 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 15:32:50.135  INFO 2300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 15:32:50.145  INFO 2300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 15:32:50.145  INFO 2300 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 15:32:50.147  INFO 2300 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 15:32:50.147  INFO 2300 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 15:32:50.148  INFO 2300 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 15:32:50.148  INFO 2300 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 15:32:50.151  INFO 2300 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 15:32:50.269  INFO 2300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 15:32:50.269  INFO 2300 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1688 ms
+2020-02-01 15:32:50.523  INFO 2300 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 15:32:50.584  INFO 2300 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-02-01 15:32:50.693  INFO 2300 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-01 15:32:50.786  INFO 2300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-01 15:32:50.889  INFO 2300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-01 15:32:50.906  INFO 2300 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 15:32:51.709  INFO 2300 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 15:32:51.716  INFO 2300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 15:32:51.744  INFO 2300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 15:32:52.549  WARN 2300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 15:32:52.753  INFO 2300 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 15:32:52.850  INFO 2300 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 15:32:53.617  INFO 2300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 15:32:53.620  INFO 2300 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 5.659 seconds (JVM running for 6.592)
+2020-02-01 15:32:57.885  INFO 2300 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 15:32:57.885  INFO 2300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 15:32:57.900  INFO 2300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-02-01 15:32:57.928  INFO 2300 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:32:57.933  INFO 2300 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:33:00.350  INFO 2300 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 15:33:00.463  WARN 2300 --- [http-nio-8080-exec-4] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 15:33:00.499  WARN 2300 --- [http-nio-8080-exec-4] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 15:33:00.505  INFO 2300 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 15:33:01.687  INFO 2300 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:33:01.688  INFO 2300 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:44:09.356  INFO 12008 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 12008 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 15:44:09.361 DEBUG 12008 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 15:44:09.362  INFO 12008 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 15:44:09.476  INFO 12008 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-01 15:44:09.478  INFO 12008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-01 15:44:09.479  INFO 12008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-01 15:44:10.431  INFO 12008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 15:44:10.553  INFO 12008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113ms. Found 5 JPA repository interfaces.
+2020-02-01 15:44:10.972  INFO 12008 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 15:44:11.461  INFO 12008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 15:44:11.471  INFO 12008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 15:44:11.472  INFO 12008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 15:44:11.474  INFO 12008 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 15:44:11.475  INFO 12008 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 15:44:11.475  INFO 12008 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 15:44:11.475  INFO 12008 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 15:44:11.479  INFO 12008 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 15:44:11.603  INFO 12008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 15:44:11.603  INFO 12008 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2123 ms
+2020-02-01 15:44:12.003  INFO 12008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 15:44:12.116  INFO 12008 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-02-01 15:44:12.361  INFO 12008 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-01 15:44:12.482  INFO 12008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-01 15:44:12.663  INFO 12008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-01 15:44:12.683  INFO 12008 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 15:44:14.430  INFO 12008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 15:44:14.438  INFO 12008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 15:44:14.472  INFO 12008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 15:44:15.627  WARN 12008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 15:44:15.903  INFO 12008 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 15:44:16.037  INFO 12008 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 15:44:16.927  INFO 12008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 15:44:16.932  INFO 12008 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 8.341 seconds (JVM running for 10.097)
+2020-02-01 15:44:28.338  INFO 12008 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 15:44:28.338  INFO 12008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 15:44:28.354  INFO 12008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-02-01 15:44:28.406  INFO 12008 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 15:44:28.477  WARN 12008 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 15:44:28.506  WARN 12008 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 15:44:28.512  INFO 12008 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 15:44:32.972  INFO 12008 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 15:44:32.976  INFO 12008 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 15:44:50.681  INFO 12008 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 15:44:50.701  INFO 12008 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 15:54:20.540  INFO 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 1920 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 15:54:20.543 DEBUG 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 15:54:20.543  INFO 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 15:54:20.628  INFO 1920 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-01 15:54:20.629  INFO 1920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-01 15:54:20.629  INFO 1920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-01 15:54:21.311  INFO 1920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 15:54:21.427  INFO 1920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108ms. Found 5 JPA repository interfaces.
+2020-02-01 15:54:21.741  INFO 1920 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 15:54:22.172  INFO 1920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 15:54:22.182  INFO 1920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 15:54:22.182  INFO 1920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 15:54:22.185  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 15:54:22.185  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 15:54:22.185  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 15:54:22.185  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 15:54:22.189  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 15:54:22.306  INFO 1920 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 15:54:22.306  INFO 1920 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1677 ms
+2020-02-01 15:54:22.549  INFO 1920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 15:54:22.615  INFO 1920 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-02-01 15:54:22.725  INFO 1920 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-01 15:54:22.814  INFO 1920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-01 15:54:22.916  INFO 1920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-01 15:54:22.933  INFO 1920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 15:54:23.747  INFO 1920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 15:54:23.754  INFO 1920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 15:54:23.787  INFO 1920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 15:54:24.583  WARN 1920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 15:54:24.794  INFO 1920 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 15:54:24.903  INFO 1920 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 15:54:25.674  INFO 1920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 15:54:25.677  INFO 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 5.691 seconds (JVM running for 6.671)
+2020-02-01 15:56:40.896  INFO 1920 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 15:56:40.897  INFO 1920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 15:56:40.914  INFO 1920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-02-01 15:56:40.950  INFO 1920 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 15:56:41.021  WARN 1920 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 15:56:41.039  WARN 1920 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 15:56:41.045  INFO 1920 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 15:56:43.365  INFO 1920 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 15:56:43.472  INFO 1920 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 15:56:44.007  INFO 1920 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 15:56:44.095  INFO 1920 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 15:59:48.073  INFO 1920 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 15:59:48.112  INFO 1920 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 15:59:59.968  INFO 1920 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:00:00.001  INFO 1920 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:00:00.462  INFO 1920 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:00:00.486  INFO 1920 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:00:08.985  INFO 1920 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.post', args=[Comment{id=null, nickname='simon', email='605882856@qq.com', content='测试头像', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@71184fe6]}
+2020-02-01 16:00:09.093  INFO 1920 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : redirect:/comments/25
+2020-02-01 16:00:09.108  INFO 1920 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:00:09.121  INFO 1920 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:00:55.888  INFO 1920 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-01 16:00:55.891  INFO 1920 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 16:00:55.898  INFO 1920 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-02-01 16:00:55.944  INFO 1920 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-02-01 16:00:56.630  INFO 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 1920 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 16:00:56.631 DEBUG 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 16:00:56.631  INFO 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 16:00:56.937  INFO 1920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 16:00:57.000  INFO 1920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 5 JPA repository interfaces.
+2020-02-01 16:00:57.065  INFO 1920 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 16:00:57.145  WARN 1920 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-02-01 16:00:57.212  INFO 1920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 16:00:57.213  INFO 1920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 16:00:57.213  INFO 1920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 16:00:57.213  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 16:00:57.213  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 16:00:57.213  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 16:00:57.213  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 16:00:57.214  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 16:00:57.240  INFO 1920 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 16:00:57.240  INFO 1920 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 605 ms
+2020-02-01 16:00:57.330  INFO 1920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 16:00:57.336  INFO 1920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-02-01 16:00:57.342  INFO 1920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-02-01 16:00:57.342  INFO 1920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 16:00:57.557  INFO 1920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 16:00:57.557  INFO 1920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 16:00:57.574  INFO 1920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 16:00:57.999  WARN 1920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 16:00:58.174  INFO 1920 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 16:00:58.222  INFO 1920 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 16:00:58.699  INFO 1920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 16:00:58.700  INFO 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 2.138 seconds (JVM running for 399.694)
+2020-02-01 16:00:58.701  INFO 1920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-02-01 16:00:58.712  INFO 1920 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 16:00:58.712  INFO 1920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 16:00:58.721  INFO 1920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-02-01 16:01:04.764  INFO 1920 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:01:04.830  INFO 1920 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:01:05.267  INFO 1920 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='127.0.0.1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:01:05.315  INFO 1920 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:01:17.663  INFO 1920 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments', ip='127.0.0.1', classMethod='com.simon.bolg_sys.controller.CommentController.post', args=[Comment{id=null, nickname='simon', email='605882856@qq.com', content='测试头像', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@2bd3bbae]}
+2020-02-01 16:01:17.694  INFO 1920 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : redirect:/comments/25
+2020-02-01 16:01:17.707  INFO 1920 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='127.0.0.1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:01:17.722  INFO 1920 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:01:41.335  INFO 1920 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-01 16:01:41.336  INFO 1920 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 16:01:41.338  INFO 1920 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-02-01 16:01:41.344  INFO 1920 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-02-01 16:01:41.851  INFO 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 1920 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 16:01:41.851 DEBUG 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 16:01:41.851  INFO 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 16:01:42.189  INFO 1920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 16:01:42.247  INFO 1920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 5 JPA repository interfaces.
+2020-02-01 16:01:42.318  INFO 1920 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 16:01:42.411  WARN 1920 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-02-01 16:01:42.482  INFO 1920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 16:01:42.482  INFO 1920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 16:01:42.482  INFO 1920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 16:01:42.483  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 16:01:42.483  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 16:01:42.483  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 16:01:42.483  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 16:01:42.483  INFO 1920 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 16:01:42.505  INFO 1920 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 16:01:42.506  INFO 1920 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 651 ms
+2020-02-01 16:01:42.588  INFO 1920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 16:01:42.593  INFO 1920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-02-01 16:01:42.599  INFO 1920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-02-01 16:01:42.599  INFO 1920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 16:01:42.815  INFO 1920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 16:01:42.815  INFO 1920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 16:01:42.832  INFO 1920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 16:01:43.243  WARN 1920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 16:01:43.402  INFO 1920 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 16:01:43.473  INFO 1920 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 16:01:43.942  INFO 1920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 16:01:43.942  INFO 1920 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 2.146 seconds (JVM running for 444.937)
+2020-02-01 16:01:43.944  INFO 1920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-02-01 16:01:43.972  INFO 1920 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 16:01:43.973  INFO 1920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 16:01:43.982  INFO 1920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-02-01 16:01:43.986  INFO 1920 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:01:44.011  INFO 1920 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:01:44.480  INFO 1920 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:01:44.510  INFO 1920 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:01:53.202  INFO 1920 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:01:53.241  INFO 1920 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:01:53.593  INFO 1920 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:01:53.609  INFO 1920 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:01:59.906  INFO 1920 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.post', args=[Comment{id=null, nickname='simon', email='605882856@qq.com', content='测试头像', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@2e27483f]}
+2020-02-01 16:01:59.942  INFO 1920 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : redirect:/comments/25
+2020-02-01 16:01:59.956  INFO 1920 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:01:59.993  INFO 1920 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:03:07.142  INFO 12172 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 12172 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 16:03:07.145 DEBUG 12172 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 16:03:07.146  INFO 12172 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 16:03:07.234  INFO 12172 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-01 16:03:07.234  INFO 12172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-01 16:03:07.235  INFO 12172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-01 16:03:08.044  INFO 12172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 16:03:08.162  INFO 12172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 5 JPA repository interfaces.
+2020-02-01 16:03:08.486  INFO 12172 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 16:03:08.930  INFO 12172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 16:03:08.939  INFO 12172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 16:03:08.940  INFO 12172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 16:03:08.942  INFO 12172 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 16:03:08.942  INFO 12172 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 16:03:08.942  INFO 12172 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 16:03:08.942  INFO 12172 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 16:03:08.946  INFO 12172 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 16:03:09.063  INFO 12172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 16:03:09.064  INFO 12172 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1828 ms
+2020-02-01 16:03:09.303  INFO 12172 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 16:03:09.361  INFO 12172 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-02-01 16:03:09.471  INFO 12172 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-01 16:03:09.560  INFO 12172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-01 16:03:09.663  INFO 12172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-01 16:03:09.681  INFO 12172 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 16:03:10.515  INFO 12172 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 16:03:10.522  INFO 12172 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 16:03:10.553  INFO 12172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 16:03:11.369  WARN 12172 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 16:03:11.578  INFO 12172 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 16:03:11.677  INFO 12172 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 16:03:12.433  INFO 12172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 16:03:12.436  INFO 12172 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 6.215 seconds (JVM running for 7.333)
+2020-02-01 16:03:22.544  INFO 12172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 16:03:22.545  INFO 12172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 16:03:22.560  INFO 12172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-02-01 16:03:22.600  INFO 12172 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:03:22.739  INFO 12172 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:03:23.496  INFO 12172 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:03:23.586  INFO 12172 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:05:19.589  INFO 12172 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:05:19.615  INFO 12172 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:05:20.100  INFO 12172 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:05:20.109  INFO 12172 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:05:40.840  INFO 12172 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.post', args=[Comment{id=null, nickname='用户测试', email='605882856@qq.com', content='测试内容', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@4cb44abf]}
+2020-02-01 16:05:40.897  INFO 12172 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : redirect:/comments/25
+2020-02-01 16:05:40.914  INFO 12172 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:05:40.921  INFO 12172 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:09:44.342  INFO 13200 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 13200 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 16:09:44.344 DEBUG 13200 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 16:09:44.345  INFO 13200 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 16:09:44.423  INFO 13200 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-01 16:09:44.424  INFO 13200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-01 16:09:44.424  INFO 13200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-01 16:09:45.126  INFO 13200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 16:09:45.254  INFO 13200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119ms. Found 5 JPA repository interfaces.
+2020-02-01 16:09:45.647  INFO 13200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 16:09:46.115  INFO 13200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 16:09:46.125  INFO 13200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 16:09:46.126  INFO 13200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 16:09:46.128  INFO 13200 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 16:09:46.129  INFO 13200 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 16:09:46.129  INFO 13200 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 16:09:46.129  INFO 13200 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 16:09:46.133  INFO 13200 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 16:09:46.251  INFO 13200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 16:09:46.251  INFO 13200 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1827 ms
+2020-02-01 16:09:46.531  INFO 13200 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 16:09:46.592  INFO 13200 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-02-01 16:09:46.702  INFO 13200 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-01 16:09:46.799  INFO 13200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-01 16:09:46.899  INFO 13200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-01 16:09:46.917  INFO 13200 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 16:09:47.771  INFO 13200 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 16:09:47.779  INFO 13200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 16:09:47.806  INFO 13200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 16:09:48.609  WARN 13200 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 16:09:48.822  INFO 13200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 16:09:48.919  INFO 13200 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 16:09:49.694  INFO 13200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 16:09:49.697  INFO 13200 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 5.869 seconds (JVM running for 7.161)
+2020-02-01 16:10:11.652  INFO 13200 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 16:10:11.653  INFO 13200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 16:10:11.667  INFO 13200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-02-01 16:10:11.706  INFO 13200 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:10:11.841  INFO 13200 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:10:13.127  INFO 13200 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:10:13.205  INFO 13200 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:19:28.706  INFO 13200 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:19:28.738  INFO 13200 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:19:29.532  INFO 13200 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:19:29.547  INFO 13200 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:22:08.844 ERROR 13200 --- [http-nio-8080-exec-4] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-4] Exception processing template "admin/index": An error happened during template parsing (template: "class path resource [templates/admin/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "session.user.avater" (template: "admin/_fragment" - line 34, col 30)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "session.user.avater" (template: "admin/_fragment" - line 34, col 30)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:264)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:85)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'avater' cannot be found on object of type 'com.simon.bolg_sys.bean.User' - maybe not public or not valid?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:217)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 76 common frames omitted
+
+2020-02-01 16:22:08.847 ERROR 13200 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/index.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'avater' cannot be found on object of type 'com.simon.bolg_sys.bean.User' - maybe not public or not valid?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:217)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:264)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:85)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1587)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-02-01 16:22:44.981  INFO 13200 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:22:45.016  INFO 13200 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:22:45.447  INFO 13200 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:22:45.467  INFO 13200 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:22:59.144  INFO 13200 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:22:59.173  INFO 13200 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:22:59.728  INFO 13200 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:22:59.739  INFO 13200 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:23:10.000  INFO 13200 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:23:10.017  INFO 13200 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:23:10.552  INFO 13200 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:23:10.564  INFO 13200 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:25:35.872  INFO 13200 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:25:35.913  INFO 13200 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:25:36.671  INFO 13200 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:25:36.681  INFO 13200 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:27:47.683  INFO 13200 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:27:47.708  INFO 13200 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:27:48.351  INFO 13200 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:27:48.371  INFO 13200 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:28:15.746  INFO 13200 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.post', args=[Comment{id=null, nickname='simon', email='605882856@qq.com', content='111', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@532b11d2]}
+2020-02-01 16:28:15.809  INFO 13200 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : redirect:/comments/25
+2020-02-01 16:28:15.815  INFO 13200 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:28:15.826  INFO 13200 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:28:32.712  INFO 13200 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:28:32.741  INFO 13200 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:28:33.177  INFO 13200 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:28:33.190  INFO 13200 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:30:55.091  INFO 13200 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:30:55.120  INFO 13200 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:30:55.572  INFO 13200 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:30:55.583  INFO 13200 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:46:03.327  INFO 13200 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:46:03.351  INFO 13200 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:48:27.112  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 11880 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 16:48:27.115 DEBUG 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 16:48:27.115  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 16:48:27.197  INFO 11880 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-01 16:48:27.198  INFO 11880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-01 16:48:27.198  INFO 11880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-01 16:48:27.945  INFO 11880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 16:48:28.064  INFO 11880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 5 JPA repository interfaces.
+2020-02-01 16:48:28.381  INFO 11880 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 16:48:28.834  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 16:48:28.843  INFO 11880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 16:48:28.844  INFO 11880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 16:48:28.846  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 16:48:28.847  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 16:48:28.847  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 16:48:28.847  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 16:48:28.851  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 16:48:28.974  INFO 11880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 16:48:28.974  INFO 11880 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1776 ms
+2020-02-01 16:48:29.224  INFO 11880 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 16:48:29.284  INFO 11880 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-02-01 16:48:29.396  INFO 11880 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-01 16:48:29.492  INFO 11880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-01 16:48:29.596  INFO 11880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-01 16:48:29.615  INFO 11880 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 16:48:30.453  INFO 11880 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 16:48:30.461  INFO 11880 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 16:48:30.486  INFO 11880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 16:48:31.285  WARN 11880 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 16:48:31.499  INFO 11880 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 16:48:31.601  INFO 11880 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 16:48:32.389  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 16:48:32.392  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 5.797 seconds (JVM running for 7.161)
+2020-02-01 16:51:56.213  INFO 11880 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 16:51:56.213  INFO 11880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 16:51:56.227  INFO 11880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-02-01 16:51:56.269  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 16:51:56.342  WARN 11880 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 16:51:56.363  WARN 11880 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 16:51:56.370  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 16:52:06.225  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:52:06.369  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:52:52.701  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 16:52:52.716  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 16:52:53.124  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 16:52:53.177  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 16:53:00.932  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 16:53:00.935  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 18:45:34.774  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 18:45:34.810  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 18:45:35.275  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 18:45:35.286  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 18:45:40.667  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 18:45:40.714  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 18:45:42.197  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-01 18:45:42.219  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 18:45:42.722  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2020-02-01 18:45:42.745  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 18:45:43.669  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-01 18:45:43.690  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 18:45:44.998  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 18:45:45.027  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 18:45:48.884  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.ArchiveShowController.archives', args=[{}]}
+2020-02-01 18:45:48.899  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : archives
+2020-02-01 18:45:50.589  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 18:45:50.589  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 18:45:56.853  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 18:45:56.891  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 18:45:57.816  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 18:45:57.834  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 20:44:39.263  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 20:44:39.295  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 20:44:42.050  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 20:44:42.066  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 20:50:52.175  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 20:50:52.217  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 20:50:58.890  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 20:50:58.914  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 20:51:01.720  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 20:51:01.734  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 20:51:07.943  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-01 20:51:07.978  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 20:51:09.939  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2020-02-01 20:51:09.955  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 20:51:13.222  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 20:51:13.247  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 20:52:21.050  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 20:52:21.093  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 20:52:23.053  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/24', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 24, {}]}
+2020-02-01 20:52:23.067  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 20:52:41.768  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 20:52:41.795  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 20:52:45.788  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 20:52:45.788  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 20:53:08.758  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.ArchiveShowController.archives', args=[{}]}
+2020-02-01 20:53:08.770  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : archives
+2020-02-01 20:53:11.817  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 20:53:11.830  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 20:53:14.667  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 20:53:14.684  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 20:53:26.987  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 20:53:27.002  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 20:53:29.908  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 20:53:29.909  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 20:53:32.230  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 20:53:32.245  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 20:56:17.591  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 20:56:17.628  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 20:56:18.057  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 20:56:18.069  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 20:57:06.183  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 20:57:06.204  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 20:57:24.666  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 20:57:24.698  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 20:57:29.392  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 20:57:29.412  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 20:57:31.127  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 20:57:31.147  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 20:57:32.143  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-01 20:57:32.157  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 20:57:33.037  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2020-02-01 20:57:33.048  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 20:57:33.885  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/3', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-02-01 20:57:33.901  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 20:57:34.896  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2020-02-01 20:57:34.921  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 20:57:35.586  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-01 20:57:35.597  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 20:57:36.667  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2020-02-01 20:57:36.698  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 21:19:16.031  INFO 11880 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-01 21:19:16.034  INFO 11880 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 21:19:16.046  INFO 11880 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-02-01 21:19:16.054  INFO 11880 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-02-01 21:19:16.676  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 11880 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 21:19:16.677 DEBUG 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 21:19:16.677  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 21:19:17.044  INFO 11880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 21:19:17.116  INFO 11880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 5 JPA repository interfaces.
+2020-02-01 21:19:17.216  INFO 11880 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 21:19:17.333  WARN 11880 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-02-01 21:19:17.409  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 21:19:17.409  INFO 11880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 21:19:17.409  INFO 11880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 21:19:17.410  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 21:19:17.410  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 21:19:17.410  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 21:19:17.410  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 21:19:17.410  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 21:19:17.438  INFO 11880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 21:19:17.438  INFO 11880 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 757 ms
+2020-02-01 21:19:17.532  INFO 11880 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 21:19:17.541  INFO 11880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-02-01 21:19:17.547  INFO 11880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-02-01 21:19:17.547  INFO 11880 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 21:19:17.754  INFO 11880 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 21:19:17.754  INFO 11880 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 21:19:17.770  INFO 11880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 21:19:18.200  WARN 11880 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 21:19:18.381  INFO 11880 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 21:19:18.462  INFO 11880 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 21:19:18.980  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 21:19:18.980  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 2.376 seconds (JVM running for 16253.751)
+2020-02-01 21:19:18.982  INFO 11880 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-02-01 21:19:19.021  INFO 11880 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 21:19:19.022  INFO 11880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 21:19:19.032  INFO 11880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-02-01 21:19:19.036  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 21:19:19.050  WARN 11880 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 21:19:19.059  WARN 11880 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 21:19:19.064  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 21:19:21.599  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 21:19:21.612  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 21:21:36.341  INFO 11880 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-01 21:21:36.343  INFO 11880 --- [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 21:21:36.344  INFO 11880 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-02-01 21:21:36.348  INFO 11880 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-02-01 21:21:36.770  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 11880 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 21:21:36.770 DEBUG 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 21:21:36.770  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 21:21:37.157  INFO 11880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 21:21:37.260  INFO 11880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 5 JPA repository interfaces.
+2020-02-01 21:21:37.336  INFO 11880 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 21:21:37.430  WARN 11880 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-02-01 21:21:37.496  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 21:21:37.497  INFO 11880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 21:21:37.497  INFO 11880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 21:21:37.497  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 21:21:37.498  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 21:21:37.498  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 21:21:37.498  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 21:21:37.498  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 21:21:37.521  INFO 11880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 21:21:37.521  INFO 11880 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 748 ms
+2020-02-01 21:21:37.602  INFO 11880 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 21:21:37.607  INFO 11880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-02-01 21:21:37.612  INFO 11880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-02-01 21:21:37.612  INFO 11880 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 21:21:37.796  INFO 11880 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 21:21:37.796  INFO 11880 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 21:21:37.814  INFO 11880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 21:21:38.192  WARN 11880 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 21:21:38.317  INFO 11880 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 21:21:38.369  INFO 11880 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 21:21:38.833  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 21:21:38.833  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 2.112 seconds (JVM running for 16393.604)
+2020-02-01 21:21:38.834  INFO 11880 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-02-01 21:33:57.135  INFO 11880 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 21:33:57.136  INFO 11880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 21:33:57.148  INFO 11880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-02-01 21:33:57.152  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 21:33:57.169  WARN 11880 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 21:33:57.187  WARN 11880 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 21:33:57.194  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 21:34:07.600  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 21:34:07.616  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 21:35:35.885  INFO 11880 --- [Thread-30] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-01 21:35:35.886  INFO 11880 --- [Thread-30] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 21:35:35.888  INFO 11880 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-02-01 21:35:35.893  INFO 11880 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-02-01 21:35:36.412  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 11880 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-02-01 21:35:36.413 DEBUG 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-01 21:35:36.413  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-02-01 21:35:36.722  INFO 11880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-01 21:35:36.783  INFO 11880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 5 JPA repository interfaces.
+2020-02-01 21:35:36.844  INFO 11880 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-01 21:35:36.922  WARN 11880 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-02-01 21:35:36.995  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-01 21:35:36.996  INFO 11880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-01 21:35:36.996  INFO 11880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-01 21:35:36.996  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-01 21:35:36.996  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-01 21:35:36.996  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-01 21:35:36.996  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-01 21:35:36.997  INFO 11880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-01 21:35:37.024  INFO 11880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-01 21:35:37.025  INFO 11880 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 609 ms
+2020-02-01 21:35:37.109  INFO 11880 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-01 21:35:37.115  INFO 11880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-02-01 21:35:37.119  INFO 11880 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-02-01 21:35:37.120  INFO 11880 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-02-01 21:35:37.294  INFO 11880 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-01 21:35:37.295  INFO 11880 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-01 21:35:37.309  INFO 11880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-01 21:35:37.679  WARN 11880 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 21:35:37.828  INFO 11880 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-01 21:35:37.880  INFO 11880 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-01 21:35:38.342  INFO 11880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-01 21:35:38.343  INFO 11880 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 1.998 seconds (JVM running for 17233.113)
+2020-02-01 21:35:38.344  INFO 11880 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-02-01 21:36:33.360  INFO 11880 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-01 21:36:33.362  INFO 11880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-01 21:36:33.372  INFO 11880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-02-01 21:36:33.375  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 21:36:33.391  WARN 11880 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 21:36:33.399  WARN 11880 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-01 21:36:33.404  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 21:36:33.812  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:36:33.822  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:36:37.182  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 21:36:37.216  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 21:36:37.532  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:36:37.538  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:36:37.635  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 21:36:37.668  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 21:38:38.852  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2020-02-01 21:38:38.892  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 21:38:39.199  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:38:39.205  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:38:40.439  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-01 21:38:40.457  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 21:38:40.747  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:38:40.753  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:38:41.437  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/31', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[31, {}]}
+2020-02-01 21:38:41.452  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 21:38:41.778  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:38:41.783  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:38:41.861  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/31', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[31, {}]}
+2020-02-01 21:38:41.864  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 21:39:44.371  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/31', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[31, {}]}
+2020-02-01 21:39:44.391  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 21:39:44.876  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:39:44.888  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:39:45.055  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/31', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[31, {}]}
+2020-02-01 21:39:45.058  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 21:40:03.825  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 21:40:03.830  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 21:40:04.194  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:40:04.215  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:40:07.050  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 21:40:07.051  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 21:40:07.324  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:40:07.330  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:40:12.516  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 21:40:12.528  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 21:40:12.794  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:40:12.799  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:48:12.851  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 21:48:12.872  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 21:48:13.173  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:48:13.179  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:48:14.268  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-01 21:48:14.301  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 21:48:14.563  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:48:14.568  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:48:15.483  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2020-02-01 21:48:15.499  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 21:48:15.829  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:48:15.834  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 21:48:17.483  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 21:48:17.504  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 21:48:17.813  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 21:48:17.818  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:14:59.805  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 1, {}]}
+2020-02-01 22:14:59.836  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 22:15:00.148  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:15:00.152  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:15:03.108  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 22:15:03.118  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 22:15:03.423  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:15:03.430  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:15:04.024  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 22:15:04.035  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 22:15:04.300  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:15:04.304  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:15:05.080  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 22:15:05.091  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 22:15:05.360  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:15:05.365  INFO 11880 --- [http-nio-8080-exec-1] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:15:25.549  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 22:15:25.563  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 22:15:25.935  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:15:25.941  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:15:26.798  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 22:15:26.811  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 22:15:27.109  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:15:27.113  INFO 11880 --- [http-nio-8080-exec-3] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:15:28.000  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.ArchiveShowController.archives', args=[{}]}
+2020-02-01 22:15:28.012  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : archives
+2020-02-01 22:15:28.324  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:15:28.332  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:15:29.756  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 22:15:29.756  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 22:15:30.045  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:15:30.053  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:16:05.781  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-01 22:16:05.814  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : index
+2020-02-01 22:16:06.123  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:16:06.127  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:16:08.088  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 22:16:08.102  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 22:16:08.384  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:16:08.388  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:16:10.016  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-01 22:16:10.029  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 22:16:10.311  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:16:10.318  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:16:11.661  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2020-02-01 22:16:11.682  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 22:16:11.961  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:16:11.981  INFO 11880 --- [http-nio-8080-exec-5] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:16:12.968  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.blog', args=[25, {}]}
+2020-02-01 22:16:12.985  INFO 11880 --- [http-nio-8080-exec-8] com.simon.bolg_sys.aspect.LogAspect      : Result : blog
+2020-02-01 22:16:13.317  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:16:13.323  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:16:13.421  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.CommentController.comments', args=[25, {}]}
+2020-02-01 22:16:13.427  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : blog :: commentList
+2020-02-01 22:18:24.000  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.ArchiveShowController.archives', args=[{}]}
+2020-02-01 22:18:24.012  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : archives
+2020-02-01 22:18:24.370  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:18:24.374  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:18:24.810  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 22:18:24.818  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 22:18:25.088  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:18:25.092  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:18:25.797  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 22:18:25.820  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 22:18:26.103  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:18:26.108  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:23:53.142  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-01 22:23:53.171  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 22:23:53.498  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:23:53.502  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:23:55.613  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2020-02-01 22:23:55.627  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 22:23:55.967  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:23:55.979  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:26:49.118  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 22:26:49.135  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : type
+2020-02-01 22:26:49.436  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:26:49.442  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:26:49.852  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 22:26:49.861  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 22:26:50.131  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:26:50.137  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:26:50.704  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.ArchiveShowController.archives', args=[{}]}
+2020-02-01 22:26:50.711  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : archives
+2020-02-01 22:26:50.967  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:26:50.975  INFO 11880 --- [http-nio-8080-exec-2] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:26:51.422  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 22:26:51.423  INFO 11880 --- [http-nio-8080-exec-10] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 22:26:51.702  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:26:51.708  INFO 11880 --- [http-nio-8080-exec-4] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:26:52.161  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-01 22:26:52.170  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : tags
+2020-02-01 22:26:52.448  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:26:52.455  INFO 11880 --- [http-nio-8080-exec-6] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList
+2020-02-01 22:26:53.039  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.AboutShowController.about', args=[]}
+2020-02-01 22:26:53.039  INFO 11880 --- [http-nio-8080-exec-7] com.simon.bolg_sys.aspect.LogAspect      : Result : ablout
+2020-02-01 22:26:53.307  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.bolg_sys.controller.IndexController.newblogs', args=[{}]}
+2020-02-01 22:26:53.311  INFO 11880 --- [http-nio-8080-exec-9] com.simon.bolg_sys.aspect.LogAspect      : Result : fragment :: newblogList

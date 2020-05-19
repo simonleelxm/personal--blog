@@ -1,0 +1,368 @@
+2020-01-25 15:06:36.167  INFO 11488 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 11488 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-25 15:06:36.179 DEBUG 11488 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-25 15:06:36.180  INFO 11488 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-25 15:06:36.337  INFO 11488 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-25 15:06:36.338  INFO 11488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-25 15:06:36.339  INFO 11488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-25 15:06:37.391  INFO 11488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-25 15:06:37.533  INFO 11488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123ms. Found 4 JPA repository interfaces.
+2020-01-25 15:06:37.933  INFO 11488 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-25 15:06:38.730  INFO 11488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-25 15:06:38.752  INFO 11488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-25 15:06:38.753  INFO 11488 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-25 15:06:38.757  INFO 11488 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-25 15:06:38.758  INFO 11488 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-25 15:06:38.758  INFO 11488 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-25 15:06:38.758  INFO 11488 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-25 15:06:38.833  INFO 11488 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-25 15:06:39.030  INFO 11488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-25 15:06:39.031  INFO 11488 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2691 ms
+2020-01-25 15:06:39.398  INFO 11488 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-25 15:06:39.515  INFO 11488 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-25 15:06:39.719  INFO 11488 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-25 15:06:39.965  INFO 11488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-25 15:06:40.252  INFO 11488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-25 15:06:40.275  INFO 11488 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-25 15:06:41.296  INFO 11488 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-25 15:06:41.304  INFO 11488 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 15:06:41.331  INFO 11488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-25 15:06:42.050  WARN 11488 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-25 15:06:42.285  INFO 11488 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 15:06:42.394  INFO 11488 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-25 15:06:43.113  INFO 11488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-25 15:06:43.117  INFO 11488 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 7.984 seconds (JVM running for 10.366)
+2020-01-25 15:06:48.264  INFO 11488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-25 15:06:48.265  INFO 11488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-25 15:06:48.277  INFO 11488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-01-25 15:09:18.496  INFO 11488 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-25 15:09:18.498  INFO 11488 --- [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 15:09:18.503  INFO 11488 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-25 15:09:18.553  INFO 11488 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-25 15:09:19.144  INFO 11488 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 11488 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-25 15:09:19.144 DEBUG 11488 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-25 15:09:19.144  INFO 11488 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-25 15:09:19.426  INFO 11488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-25 15:09:19.477  INFO 11488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 4 JPA repository interfaces.
+2020-01-25 15:09:19.545  INFO 11488 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-25 15:09:19.633  WARN 11488 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-25 15:09:19.704  INFO 11488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-25 15:09:19.705  INFO 11488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-25 15:09:19.705  INFO 11488 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-25 15:09:19.705  INFO 11488 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-25 15:09:19.705  INFO 11488 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-25 15:09:19.705  INFO 11488 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-25 15:09:19.706  INFO 11488 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-25 15:09:19.706  INFO 11488 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-25 15:09:19.733  INFO 11488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-25 15:09:19.734  INFO 11488 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 587 ms
+2020-01-25 15:09:19.815  INFO 11488 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-25 15:09:19.821  INFO 11488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-01-25 15:09:19.830  INFO 11488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-01-25 15:09:19.830  INFO 11488 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-25 15:09:20.044  INFO 11488 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-25 15:09:20.044  INFO 11488 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 15:09:20.061  INFO 11488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-25 15:09:20.325  WARN 11488 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-25 15:09:20.486  INFO 11488 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 15:09:20.537  INFO 11488 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-25 15:09:21.047  INFO 11488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-25 15:09:21.048  INFO 11488 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 1.96 seconds (JVM running for 168.297)
+2020-01-25 15:09:21.050  INFO 11488 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-25 15:09:50.894  INFO 11488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-25 15:09:50.895  INFO 11488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-25 15:09:50.907  INFO 11488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-01-25 15:13:31.261  INFO 10672 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 10672 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-25 15:13:31.263 DEBUG 10672 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-25 15:13:31.264  INFO 10672 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-25 15:13:31.342  INFO 10672 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-25 15:13:31.342  INFO 10672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-25 15:13:31.342  INFO 10672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-25 15:13:32.094  INFO 10672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-25 15:13:32.214  INFO 10672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108ms. Found 4 JPA repository interfaces.
+2020-01-25 15:13:32.704  INFO 10672 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-25 15:13:33.233  INFO 10672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-25 15:13:33.244  INFO 10672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-25 15:13:33.245  INFO 10672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-25 15:13:33.248  INFO 10672 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-25 15:13:33.248  INFO 10672 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-25 15:13:33.248  INFO 10672 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-25 15:13:33.248  INFO 10672 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-25 15:13:33.252  INFO 10672 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-25 15:13:33.380  INFO 10672 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-25 15:13:33.380  INFO 10672 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2038 ms
+2020-01-25 15:13:33.645  INFO 10672 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-25 15:13:33.723  INFO 10672 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-25 15:13:33.848  INFO 10672 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-25 15:13:33.973  INFO 10672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-25 15:13:34.098  INFO 10672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-25 15:13:34.120  INFO 10672 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-25 15:13:35.154  INFO 10672 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-25 15:13:35.168  INFO 10672 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 15:13:35.199  INFO 10672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-25 15:13:35.854  WARN 10672 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-25 15:13:36.127  INFO 10672 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 15:13:36.226  INFO 10672 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-25 15:13:36.879  INFO 10672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-25 15:13:36.879  INFO 10672 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 6.132 seconds (JVM running for 8.284)
+2020-01-25 15:13:39.753  INFO 10672 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-25 15:13:39.753  INFO 10672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-25 15:13:39.769  INFO 10672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-01-25 15:14:38.945  INFO 10672 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-25 15:14:38.945  INFO 10672 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 15:14:38.961  INFO 10672 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-25 15:14:38.961  INFO 10672 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-25 15:49:19.902  INFO 8276 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 8276 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-25 15:49:19.906 DEBUG 8276 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-25 15:49:19.907  INFO 8276 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-25 15:49:20.070  INFO 8276 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-25 15:49:20.070  INFO 8276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-25 15:49:20.071  INFO 8276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-25 15:49:21.024  INFO 8276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-25 15:49:21.131  INFO 8276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99ms. Found 4 JPA repository interfaces.
+2020-01-25 15:49:21.472  INFO 8276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-25 15:49:21.946  INFO 8276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-25 15:49:21.956  INFO 8276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-25 15:49:21.956  INFO 8276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-25 15:49:21.959  INFO 8276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-25 15:49:21.959  INFO 8276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-25 15:49:21.959  INFO 8276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-25 15:49:21.959  INFO 8276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-25 15:49:21.963  INFO 8276 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-25 15:49:22.083  INFO 8276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-25 15:49:22.083  INFO 8276 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2012 ms
+2020-01-25 15:49:22.378  INFO 8276 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-25 15:49:22.449  INFO 8276 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-25 15:49:22.567  INFO 8276 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-25 15:49:22.664  INFO 8276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-25 15:49:22.772  INFO 8276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-25 15:49:22.790  INFO 8276 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-25 15:49:23.638  INFO 8276 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-25 15:49:23.646  INFO 8276 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 15:49:23.671  INFO 8276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-25 15:49:24.234  WARN 8276 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-25 15:49:24.485  INFO 8276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 15:49:24.582  INFO 8276 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-25 15:49:25.167  INFO 8276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-25 15:49:25.170  INFO 8276 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 5.852 seconds (JVM running for 6.97)
+2020-01-25 15:49:36.606  INFO 8276 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-25 15:49:36.609  INFO 8276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-25 15:49:36.623  INFO 8276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-01-25 15:53:20.238  INFO 5304 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 5304 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-25 15:53:20.241 DEBUG 5304 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-25 15:53:20.242  INFO 5304 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-25 15:53:20.402  INFO 5304 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-25 15:53:20.403  INFO 5304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-25 15:53:20.403  INFO 5304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-25 15:53:29.135  INFO 6940 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 6940 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-25 15:53:29.139 DEBUG 6940 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-25 15:53:29.139  INFO 6940 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-25 15:53:29.261  INFO 6940 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-25 15:53:29.261  INFO 6940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-25 15:53:29.262  INFO 6940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-25 15:53:30.149  INFO 6940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-25 15:53:30.274  INFO 6940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113ms. Found 4 JPA repository interfaces.
+2020-01-25 15:53:30.693  INFO 6940 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-25 15:53:31.232  INFO 6940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-25 15:53:31.244  INFO 6940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-25 15:53:31.244  INFO 6940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-25 15:53:31.247  INFO 6940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-25 15:53:31.247  INFO 6940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-25 15:53:31.247  INFO 6940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-25 15:53:31.247  INFO 6940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-25 15:53:31.251  INFO 6940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-25 15:53:31.384  INFO 6940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-25 15:53:31.384  INFO 6940 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2122 ms
+2020-01-25 15:53:31.691  INFO 6940 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-25 15:53:31.769  INFO 6940 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-25 15:53:31.915  INFO 6940 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-25 15:53:32.037  INFO 6940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-25 15:53:32.171  INFO 6940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-25 15:53:32.205  INFO 6940 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-25 15:53:33.277  INFO 6940 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-25 15:53:33.286  INFO 6940 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 15:53:33.318  INFO 6940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-25 15:53:34.005  WARN 6940 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-25 15:53:34.294  INFO 6940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 15:53:34.438  INFO 6940 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-25 15:53:35.074  INFO 6940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-25 15:53:35.077  INFO 6940 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 6.604 seconds (JVM running for 7.811)
+2020-01-25 15:53:40.867  INFO 6940 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-25 15:53:40.867  INFO 6940 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-25 15:53:41.067  INFO 6940 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 200 ms
+2020-01-25 16:33:22.944  WARN 6940 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m9s191ms529µs875ns).
+2020-01-25 16:33:23.669  INFO 6940 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-25 16:33:23.670  INFO 6940 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 16:33:23.675  INFO 6940 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-25 16:33:23.681  INFO 6940 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-25 16:33:27.612  INFO 2100 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 2100 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-25 16:33:27.623 DEBUG 2100 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-25 16:33:27.624  INFO 2100 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-25 16:33:27.729  INFO 2100 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-25 16:33:27.729  INFO 2100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-25 16:33:27.729  INFO 2100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-25 16:33:28.552  INFO 2100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-25 16:33:28.656  INFO 2100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 4 JPA repository interfaces.
+2020-01-25 16:33:28.978  INFO 2100 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-25 16:33:29.415  INFO 2100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-25 16:33:29.424  INFO 2100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-25 16:33:29.424  INFO 2100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-25 16:33:29.426  INFO 2100 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-25 16:33:29.427  INFO 2100 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-25 16:33:29.427  INFO 2100 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-25 16:33:29.427  INFO 2100 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-25 16:33:29.430  INFO 2100 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-25 16:33:29.545  INFO 2100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-25 16:33:29.545  INFO 2100 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1815 ms
+2020-01-25 16:33:29.802  INFO 2100 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-25 16:33:29.865  INFO 2100 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-25 16:33:29.975  INFO 2100 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-25 16:33:30.076  INFO 2100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-25 16:33:30.181  INFO 2100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-25 16:33:30.199  INFO 2100 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-25 16:33:31.028  INFO 2100 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-25 16:33:31.035  INFO 2100 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 16:33:31.063  INFO 2100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-25 16:33:31.661  WARN 2100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-25 16:33:31.883  INFO 2100 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 16:33:31.978  INFO 2100 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-25 16:33:32.550  INFO 2100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-25 16:33:32.553  INFO 2100 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 5.552 seconds (JVM running for 6.631)
+2020-01-25 16:46:52.245  INFO 1480 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 1480 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-25 16:46:52.249 DEBUG 1480 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-25 16:46:52.250  INFO 1480 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-25 16:46:52.346  INFO 1480 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-25 16:46:52.347  INFO 1480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-25 16:46:52.347  INFO 1480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-25 16:46:53.098  INFO 1480 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-25 16:46:53.201  INFO 1480 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 4 JPA repository interfaces.
+2020-01-25 16:46:53.533  INFO 1480 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-25 16:46:54.007  INFO 1480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-25 16:46:54.016  INFO 1480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-25 16:46:54.017  INFO 1480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-25 16:46:54.019  INFO 1480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-25 16:46:54.020  INFO 1480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-25 16:46:54.020  INFO 1480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-25 16:46:54.020  INFO 1480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-25 16:46:54.024  INFO 1480 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-25 16:46:54.144  INFO 1480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-25 16:46:54.144  INFO 1480 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1796 ms
+2020-01-25 16:46:54.413  INFO 1480 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-25 16:46:54.474  INFO 1480 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-25 16:46:54.585  INFO 1480 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-25 16:46:54.679  INFO 1480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-25 16:46:54.782  INFO 1480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-25 16:46:54.801  INFO 1480 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-25 16:46:55.627  INFO 1480 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-25 16:46:55.636  INFO 1480 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 16:46:55.667  INFO 1480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-25 16:46:56.300  WARN 1480 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-25 16:46:56.533  INFO 1480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 16:46:56.643  INFO 1480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-25 16:46:57.232  INFO 1480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-25 16:46:57.236  INFO 1480 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 5.526 seconds (JVM running for 6.602)
+2020-01-25 16:47:31.609  INFO 1480 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-25 16:47:31.610  INFO 1480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-25 16:47:31.626  INFO 1480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-01-25 17:31:00.733  INFO 7140 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 7140 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-25 17:31:00.736 DEBUG 7140 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-25 17:31:00.737  INFO 7140 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-25 17:31:00.852  INFO 7140 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-25 17:31:00.852  INFO 7140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-25 17:31:00.852  INFO 7140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-25 17:31:01.696  INFO 7140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-25 17:31:01.808  INFO 7140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 4 JPA repository interfaces.
+2020-01-25 17:31:02.200  INFO 7140 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-25 17:31:02.700  INFO 7140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-25 17:31:02.712  INFO 7140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-25 17:31:02.712  INFO 7140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-25 17:31:02.715  INFO 7140 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-25 17:31:02.715  INFO 7140 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-25 17:31:02.715  INFO 7140 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-25 17:31:02.715  INFO 7140 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-25 17:31:02.719  INFO 7140 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-25 17:31:02.849  INFO 7140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-25 17:31:02.850  INFO 7140 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1998 ms
+2020-01-25 17:31:03.140  INFO 7140 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-25 17:31:03.210  INFO 7140 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-25 17:31:03.336  INFO 7140 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-25 17:31:03.442  INFO 7140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-25 17:31:03.555  INFO 7140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-25 17:31:03.576  INFO 7140 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-25 17:31:04.496  INFO 7140 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-25 17:31:04.504  INFO 7140 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 17:31:04.531  INFO 7140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-25 17:31:05.184  WARN 7140 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-25 17:31:05.446  INFO 7140 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 17:31:05.558  INFO 7140 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-25 17:31:06.238  INFO 7140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-25 17:31:06.242  INFO 7140 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 6.314 seconds (JVM running for 7.474)
+2020-01-25 19:31:32.066  INFO 7140 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-25 19:31:32.072  INFO 7140 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 19:31:32.089  INFO 7140 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-25 19:31:32.098  INFO 7140 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-25 19:31:33.099  INFO 7140 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 7140 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-25 19:31:33.099 DEBUG 7140 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-25 19:31:33.099  INFO 7140 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-25 19:31:33.646  INFO 7140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-25 19:31:33.710  INFO 7140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 4 JPA repository interfaces.
+2020-01-25 19:31:33.803  INFO 7140 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-25 19:31:33.918  WARN 7140 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-25 19:31:34.316  INFO 7140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-25 19:31:34.317  INFO 7140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-25 19:31:34.317  INFO 7140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-25 19:31:34.318  INFO 7140 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-25 19:31:34.319  INFO 7140 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-25 19:31:34.320  INFO 7140 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-25 19:31:34.320  INFO 7140 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-25 19:31:34.320  INFO 7140 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-25 19:31:34.353  INFO 7140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-25 19:31:34.353  INFO 7140 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1247 ms
+2020-01-25 19:31:34.481  INFO 7140 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-25 19:31:34.491  INFO 7140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-01-25 19:31:34.503  INFO 7140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-01-25 19:31:34.503  INFO 7140 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-25 19:31:34.846  INFO 7140 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-25 19:31:34.847  INFO 7140 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 19:31:34.864  INFO 7140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-25 19:31:35.473  WARN 7140 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-25 19:31:35.759  INFO 7140 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 19:31:35.854  INFO 7140 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-25 19:31:36.674  INFO 7140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-25 19:31:36.675  INFO 7140 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 3.69 seconds (JVM running for 7237.908)
+2020-01-25 19:31:36.678  INFO 7140 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-25 19:40:11.870  INFO 14696 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Starting BolgSysApplication on DESKTOP-DKK75E5 with PID 14696 (started by simon in C:\Users\神州\Desktop\blog\bolg_sys)
+2020-01-25 19:40:11.885 DEBUG 14696 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-25 19:40:11.885  INFO 14696 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : The following profiles are active: dev
+2020-01-25 19:40:11.995  INFO 14696 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\神州\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/%e7%a5%9e%e5%b7%9e/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-01-25 19:40:11.995  INFO 14696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-25 19:40:11.996  INFO 14696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-25 19:40:12.726  INFO 14696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-25 19:40:12.843  INFO 14696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108ms. Found 4 JPA repository interfaces.
+2020-01-25 19:40:13.168  INFO 14696 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-25 19:40:13.946  INFO 14696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-25 19:40:13.958  INFO 14696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-25 19:40:13.958  INFO 14696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-25 19:40:13.962  INFO 14696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-01-25 19:40:13.962  INFO 14696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-01-25 19:40:13.962  INFO 14696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-01-25 19:40:13.962  INFO 14696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-01-25 19:40:13.977  INFO 14696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-01-25 19:40:14.094  INFO 14696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-25 19:40:14.094  INFO 14696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2098 ms
+2020-01-25 19:40:14.390  INFO 14696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-25 19:40:14.482  INFO 14696 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-25 19:40:14.654  INFO 14696 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-25 19:40:14.816  INFO 14696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-25 19:40:14.969  INFO 14696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-25 19:40:14.990  INFO 14696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-25 19:40:15.985  INFO 14696 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-25 19:40:15.992  INFO 14696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 19:40:16.021  INFO 14696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-25 19:40:16.844  WARN 14696 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-25 19:40:17.067  INFO 14696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 19:40:17.165  INFO 14696 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-25 19:40:17.771  INFO 14696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-25 19:40:17.774  INFO 14696 --- [restartedMain] com.simon.bolg_sys.BolgSysApplication    : Started BolgSysApplication in 6.65 seconds (JVM running for 8.566)
+2020-01-25 19:50:35.519  INFO 14696 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-25 19:50:35.519  INFO 14696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-25 19:50:35.533  INFO 14696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
